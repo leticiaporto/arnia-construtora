@@ -98,14 +98,13 @@ nav ul li ul li a {
     text-align: center;
 }
 
-.sobre-conteudo-texto {
-    margin: 10px;
-    text-align: justify;
+.sobre-conteudo-valores {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .valores-item {
-    display: inline-block;
-    width: 220px;
+    flex: 1 1 0;
     background-color: #f3f3f3;
     border-radius: 2%;
     margin: 25px;
@@ -113,6 +112,8 @@ nav ul li ul li a {
 }
 
 .sobre-conteudo-imagens {
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 25px;
     text-align: center;
 }
@@ -124,8 +125,36 @@ nav ul li ul li a {
 }
 
 .sobre-conteudo-imagem {
-    display: inline-block;
     padding: 5px;
+}
+
+.equipe-imagem {
+    position: relative;
+    padding: 5px;
+}
+
+.equipe-imagem img {
+    height: 200px;
+    width: 300px;
+    border: 1px solid #f3f3f3;
+}
+
+.equipe-imagem-texto {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.equipe-name {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    background-color: #067bdb;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .rodape {
@@ -134,4 +163,37 @@ nav ul li ul li a {
     padding: 100px;
     font-size: 20px;
     color: #fff;
+}
+
+.equipe-imagem {
+    position: relative;
+    height: 200px;
+    width: 300px;
+}
+
+.equipe-imagem img {
+    height: 200px;
+    width: 300px;
+}
+
+.equipe-texto {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.quem-somos-conteudo-imagens img {
+    border-radius: 2%;
+}
+
+.equipe-texto-nome {
+    position: absolute;
+    background-color: #188be9;
+    left: 15px;
+    bottom: 15px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px
 }
